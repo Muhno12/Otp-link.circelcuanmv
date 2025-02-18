@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="id"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tembak Kuota XL</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to bottom, #ffffff, #00bcd4);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            background-color: #4B4B4B;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 400px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        .text-white { color: white; }
+        .form-control, .form-select {
+            border: none;
+            border-radius: 5px;
+            box-shadow: none;
+        }
+        .form-control:focus, .form-select:focus {
+            box-shadow: none;
+            outline: none;
+        }
+        .btn-primary {
+            background-color: #00bcd4;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #0097a7;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-white">Tembak Kuota XL</h2>
+                            
+                    <form method="POST" action="" class="form">
+                <div class="mb-3">
+                    <label for="msisdn" class="form-label text-white">Masukkan MSISDN</label>
+                    <input type="text" class="form-control" id="msisdn" name="msisdn" placeholder="08123456789" required="">
+                </div>
+                <button type="submit" name="request_otp" class="btn btn-primary">Kirim OTP</button>
+            </form>
+            </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body></html>
